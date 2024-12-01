@@ -1,0 +1,15 @@
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .h-custom {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center vertically */
+  }
+  
+  footer {
+    margin-top: auto; /* Push footer to the bottom */
+  }
