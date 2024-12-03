@@ -1,96 +1,118 @@
 .background-radial-gradient {
-    background-color: hsl(218, 41%, 15%);
-    background-image: radial-gradient(650px circle at 0% 0%, hsl(218, 41%, 35%) 15%, hsl(218, 41%, 30%) 35%, hsl(218, 41%, 20%) 75%, hsl(218, 41%, 19%) 80%, transparent 100%),
-      radial-gradient(1250px circle at 100% 100%, hsl(218, 41%, 45%) 15%, hsl(218, 41%, 30%) 35%, hsl(218, 41%, 20%) 75%, hsl(218, 41%, 19%) 80%, transparent 100%);
-  }
-  
-  #radius-shape-1 {
-    height: 220px;
-    width: 220px;
-    top: -60px;
-    left: -130px;
-    background: radial-gradient(#44006b, #ad1fff);
-    overflow: hidden;
-  }
-  
-  #radius-shape-2 {
-    border-radius: 38% 62% 63% 37% / 70% 33% 67% 30%;
-    bottom: -60px;
-    right: -110px;
-    width: 300px;
-    height: 300px;
-    background: radial-gradient(#44006b, #ad1fff);
-    overflow: hidden;
-  }
-  
-  .bg-glass {
-    background-color: hsla(0, 0%, 100%, 0.9) !important;
-    backdrop-filter: saturate(200%) blur(25px);
-  }
+  background-color: hsl(218, 41%, 15%);
+  background-image: radial-gradient(
+      650px circle at 0% 0%,
+      hsl(218, 41%, 35%) 15%,
+      hsl(218, 41%, 30%) 35%,
+      hsl(218, 41%, 20%) 75%,
+      hsl(218, 41%, 19%) 80%,
+      transparent 100%
+    ),
+    radial-gradient(
+      1250px circle at 100% 100%,
+      hsl(218, 41%, 45%) 15%,
+      hsl(218, 41%, 30%) 35%,
+      hsl(218, 41%, 20%) 75%,
+      hsl(218, 41%, 19%) 80%,
+      transparent 100%
+    );
+}
 
+#radius-shape-1 {
+  height: 220px;
+  width: 220px;
+  top: -60px;
+  left: -130px;
+  background: radial-gradient(#44006b, #ad1fff);
+  overflow: hidden;
+}
 
-  @media (min-width: 1025px) {
-    .h-custom {
+#radius-shape-2 {
+  border-radius: 38% 62% 63% 37% / 70% 33% 67% 30%;
+  bottom: -60px;
+  right: -110px;
+  width: 300px;
+  height: 300px;
+  background: radial-gradient(#44006b, #ad1fff);
+  overflow: hidden;
+}
+
+.bg-glass {
+  background-color: hsla(0, 0%, 100%, 0.9) !important;
+  backdrop-filter: saturate(200%) blur(25px);
+}
+
+@media (min-width: 1025px) {
+  .h-custom {
     height: 100vh !important;
-    }
-    }
-    .card-registration .select-input.form-control[readonly]:not([disabled]) {
-    font-size: 1rem;
-    line-height: 2.15;
-    padding-left: .75em;
-    padding-right: .75em;
-    }
-    .card-registration .select-arrow {
-    top: 13px;
-    }
-    
-    .gradient-custom-2 {
-    /* fallback for old browsers */
-    background: #a1c4fd;
-    
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: -webkit-linear-gradient(to right, rgba(161, 196, 253, 1), rgba(194, 233, 251, 1));
-    
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background: linear-gradient(to right, rgba(161, 196, 253, 1), rgba(194, 233, 251, 1))
-    }
-    
-    .bg-indigo {
-    background-color: #4835d4;
-    }
-    @media (min-width: 992px) {
-    .card-registration-2 .bg-indigo {
+  }
+}
+.card-registration .select-input.form-control[readonly]:not([disabled]) {
+  font-size: 1rem;
+  line-height: 2.15;
+  padding-left: 0.75em;
+  padding-right: 0.75em;
+}
+.card-registration .select-arrow {
+  top: 13px;
+}
+
+.gradient-custom-2 {
+  /* fallback for old browsers */
+  background: #a1c4fd;
+
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(
+    to right,
+    rgba(161, 196, 253, 1),
+    rgba(194, 233, 251, 1)
+  );
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(
+    to right,
+    rgba(161, 196, 253, 1),
+    rgba(194, 233, 251, 1)
+  );
+}
+
+.bg-indigo {
+  background-color: #4835d4;
+}
+@media (min-width: 992px) {
+  .card-registration-2 .bg-indigo {
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
-    }
-    }
-    @media (max-width: 991px) {
-    .card-registration-2 .bg-indigo {
+  }
+}
+@media (max-width: 991px) {
+  .card-registration-2 .bg-indigo {
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
-    }
-    }
-
-
-    /* navbar-style */
-
-    .custom-navbar {
-      background-color: rgba(28, 129, 236, 0.3); /* Semi-transparent blue */
-      backdrop-filter: blur(10px); /* Apply blur effect for the glass effect */
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: adds shadow for better contrast */
-    }
-
-    .tax-tracker-brand {
-      font-family: 'Gilroy', sans-serif;
-      font-weight: bold;
-      font-size: 30px;
-      color: #171f1f;
-      letter-spacing: 1px;
-      transition: transform 0.3s ease;
   }
-  
-  .tax-tracker-brand:hover {
-      transform: scale(1.1); /* Slightly scale up on hover */
-      color: #26169f; /* Darker green on hover */
-  }
-  
+}
+
+/* navbar-style */
+
+.custom-navbar {
+  background-color: rgba(28, 129, 236, 0.3); /* Semi-transparent blue */
+  backdrop-filter: blur(10px); /* Apply blur effect for the glass effect */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: adds shadow for better contrast */
+  height: 80px; /* Set your desired height */
+  padding-top: 10px; /* Adjust padding to align content vertically */
+  padding-bottom: 10px;
+}
+
+.tax-tracker-brand {
+  font-family: "Gilroy", sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  color: #171f1f;
+  letter-spacing: 1px;
+  transition: transform 0.3s ease;
+}
+
+.tax-tracker-brand:hover {
+  transform: scale(1.1); /* Slightly scale up on hover */
+  color: #26169f; /* Darker green on hover */
+}

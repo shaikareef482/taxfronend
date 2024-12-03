@@ -1,0 +1,15 @@
+/* Glass Effect */
+.glass-card {
+    background: rgb(239, 244, 245); /* Semi-transparent background */
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(199, 31, 31, 0.1);
+    backdrop-filter: blur(10px); /* Frosted glass effect */
+    -webkit-backdrop-filter: blur(10px);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .glass-card:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  }
+  

@@ -1,0 +1,44 @@
+{
+    "transactions": [
+      {
+        "id": 1,
+        "date": "2024-01-15",
+        "amount": 250,
+        "type": "Credit",
+        "organization": "ABC Corp",
+        "year": "2024"
+      },
+      {
+        "id": 2,
+        "date": "2024-02-10",
+        "amount": 150,
+        "type": "Debit",
+        "organization": "XYZ Inc",
+        "year": "2024"
+      },
+      {
+        "id": 3,
+        "date": "2023-12-22",
+        "amount": 300,
+        "type": "Credit",
+        "organization": "LMN Ltd",
+        "year": "2023"
+      },
+      {
+        "id": 4,
+        "date": "2024-03-05",
+        "amount": 500,
+        "type": "Credit",
+        "organization": "PQR Global",
+        "year": "2024"
+      },
+      {
+        "id": 5,
+        "date": "2023-11-18",
+        "amount": 120,
+        "type": "Debit",
+        "organization": "DEF Corp",
+        "year": "2023"
+      }
+    ]
+  }
