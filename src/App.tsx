@@ -17,6 +17,7 @@ import TransactionPage from './Components/TransactionPage';
 import Form90C from './Demo/Form90C';
 import Profiledemo from './Demo/Profiledemo';
 import TransactionTable from './Demo/TransactionTable';
+import LogoThree from './Components/LogoThree';
 
 function App() {
   return (
@@ -27,11 +28,12 @@ function App() {
         <Route path='/register' element={<Register/>} />
         <Route path='/ladingpage' element={<LanderPage/>}/>
         <Route path='/nav' element={<Navbar/>}/>
-        <Route path='/footer' element={<FooterOne/>}/>
+        <Route path='/footer' element={<Footer/>}/>
         <Route path='/profile' element={<Profile/>}/>
         <Route path='/pro' element={<Profiledemo/>}/>
         <Route path='/tran' element={<TransactionTable/>}/>
         <Route path="/form" element={<Form90C />} />
+         <Route path='logo' element={<LogoThree/>}/>
     </Routes>
     </BrowserRouter>
   );

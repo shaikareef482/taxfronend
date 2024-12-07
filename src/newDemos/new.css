@@ -1,0 +1,10 @@
+.bank-card {
+    background: linear-gradient(135deg, #3b82f6, #1e3a8a); /* Example gradient */
+    border-radius: 16px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+  
+  .bank-card:hover {
+    transform: scale(1.02);
+  }
